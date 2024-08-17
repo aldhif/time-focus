@@ -1,0 +1,111 @@
+.container {
+  width: 600px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #242424;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 200px;
+  border-radius: 10px;
+}
+
+.title {
+  width: 600px;
+  height: 70px;
+  text-align: center;
+  max-width: 600px;
+  max-height: 100px;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.break-section, .session-section {
+  width: 300px;
+  height: 90px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  background-color: white;
+  color: #242424;
+  
+}
+
+button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #555555;
+}
+
+#break-decrement:hover, #break-increment:hover, #session-decrement:hover, #session-increment:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #555555;
+  border-radius: 5px;
+}
+
+
+#break-label, #session-label {
+  width: 300px;
+  height: 10px;
+  font-weight: lighter;
+  background-color: white;
+  color: #242424;
+  line-height: 0px;
+}
+
+#break-decrement, #break-length, #break-increment, #session-decrement, #session-length, #session-increment {
+  width: 50px;
+  height: 40px;
+  max-width: 40px;
+  font-size: 30px;
+  background-color: white;
+  color: #242424;
+  border: 1px solid white;
+}
+
+
+.time-container {
+  width: 600px;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  line-height: 0px;
+  column-gap: 5px;
+}
+
+#time-label {
+  width: 600px;
+  height: 40px;
+  max-width: 40px;
+  max-width: 600px;
+}
+
+#time-left {
+  width: 600px;
+  height: 100px;
+  max-width: 80px;
+  max-width: 600px;
+  font-size: 120px;
+  line-height: 70px;
+}
+
+#start_stop, #reset {
+  width: 250px;
+  height: 80px;
+  max-width: 250px;
+  max-height: 80px;
+  font-size: 20px;
+  border-radius: 7px;
+  border: 0.1px solid #242424;
+}
